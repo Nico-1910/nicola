@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Diario — Nicola</title>
+<title>Diario - Nicola</title>
 <meta name="description" content="Il diario di allenamento di Nicola: pensieri e appunti sul percorso.">
 <script>(function(){var p=location.pathname,i=p.indexOf("/admin/"),b="";if(i>0)b=p.slice(0,i);else if(/^\/nicola(\/|$)/i.test(p))b="/nicola";window.ND_BASE=b;window.ndUrl=function(u){if(!u)return(b||"")+"/";if(u.charAt(0)!=="/")u="/"+u;return b+u;};var bh=(b||"")+"/";if(!document.querySelector("base[data-nd-base]")){var e=document.createElement("base");e.href=bh;e.setAttribute("data-nd-base","1");document.head.insertBefore(e,document.head.firstChild);}})();</script>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/site.css?v=1">
+<link rel="stylesheet" href="css/site.css?v=2">
 </head>
 <body>
 <a class="skip-link" href="diario/#contenuto">Vai al contenuto</a>
@@ -18,31 +18,36 @@
     <nav class="site-nav" id="nav-principale" aria-label="Principale">
       <ul>
         <li><a href="./">Home</a></li>
+        <li><a href="chi-sono/">Chi sono</a></li>
         <li><a href="diario/" aria-current="page">Diario</a></li>
         <li><a href="allenamenti/">Allenamenti</a></li>
-        <li><a href="sessioni/">Sessioni</a></li>
         <li><a href="schede/">Schede</a></li>
       </ul>
     </nav>
   </div>
 </header>
-
 <main id="contenuto">
   <section class="section" aria-labelledby="diario-title">
     <div class="wrap">
       <span class="section-label">Diario</span>
       <h1 id="diario-title">Pensieri e appunti</h1>
-      <p class="lead">Come va il percorso, cosa imparo, cosa cambia. Gli articoli arrivano qui, in ordine dal più recente.</p>
-      <div class="panel empty-state">
-        <p><strong>Nessun articolo ancora.</strong></p>
-        <p>Il primo articolo del diario comparirà in questa pagina. C'è già un <a href="diario/modello/">modello vuoto</a> pronto da compilare.</p>
+      <p class="lead">Come va il percorso, cosa imparo, cosa cambia. Gli articoli arrivano qui, in ordine dal pi&ugrave; recente.</p>
+
+      <div class="diario-list">
+        <a class="diario-card" href="diario/racconto-ragazzo-17-anni/">
+          <div class="diario-card__meta"><span class="diario-card__tag">Racconto</span>&middot; <time datetime="2026-10-31">31 ott 2026</time></div>
+          <h3>Il ragazzo volenteroso - una storia di inizio</h3>
+          <p>La storia di un ragazzo di 17 anni che entra in palestra per la prima volta: impegno, costanza e piccole vittorie. Un racconto di fantasia per iniziare il diario.</p>
+        </a>
+        <!-- I prossimi articoli si aggiungono qui sopra, dal pi&ugrave; recente. -->
       </div>
+
+      <p>C'&egrave; anche un <a href="diario/modello/">modello vuoto</a> pronto per i prossimi articoli.</p>
     </div>
   </section>
 </main>
-
 <footer class="site-footer">
-  <div class="wrap"><p>© <span id="y"></span> Nicola · Diario, allenamenti, sessioni e schede</p></div>
+  <div class="wrap"><p>&copy; <span id="y"></span> Nicola &middot; Diario, allenamenti, sessioni e schede</p></div>
 </footer>
 <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
 <script src="js/site.js?v=1" defer></script>

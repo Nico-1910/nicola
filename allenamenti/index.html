@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Allenamenti — Nicola</title>
+<title>Allenamenti - Nicola</title>
 <meta name="description" content="Il programma di allenamento di Nicola: indice delle sezioni, ciclo annuale e collegamenti a schede, sessioni e diario.">
 <script>(function(){var p=location.pathname,i=p.indexOf("/admin/"),b="";if(i>0)b=p.slice(0,i);else if(/^\/nicola(\/|$)/i.test(p))b="/nicola";window.ND_BASE=b;window.ndUrl=function(u){if(!u)return(b||"")+"/";if(u.charAt(0)!=="/")u="/"+u;return b+u;};var bh=(b||"")+"/";if(!document.querySelector("base[data-nd-base]")){var e=document.createElement("base");e.href=bh;e.setAttribute("data-nd-base","1");document.head.insertBefore(e,document.head.firstChild);}})();</script>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/site.css?v=1">
+<link rel="stylesheet" href="css/site.css?v=2">
 </head>
 <body>
 <a class="skip-link" href="allenamenti/#contenuto">Vai al contenuto</a>
@@ -18,9 +18,9 @@
     <nav class="site-nav" id="nav-principale" aria-label="Principale">
       <ul>
         <li><a href="./">Home</a></li>
+        <li><a href="chi-sono/">Chi sono</a></li>
         <li><a href="diario/">Diario</a></li>
         <li><a href="allenamenti/" aria-current="page">Allenamenti</a></li>
-        <li><a href="sessioni/">Sessioni</a></li>
         <li><a href="schede/">Schede</a></li>
       </ul>
     </nav>
@@ -46,6 +46,12 @@
           <h3>Sessioni</h3>
           <p>Il registro delle sedute svolte, con i dati dell'orologio (collegamento da configurare).</p>
           <span class="hub-card__cta">Vai alle Sessioni →</span>
+        </a>
+        <a class="hub-card" href="sessioni/vista-mensile/">
+          <img class="hub-card__icon" src="img/icon-sessioni.svg" alt="" width="46" height="46">
+          <h3>Vista mensile</h3>
+          <p>Quanto ho lavorato mese per mese: sessioni, minuti, calorie, battiti e serie.</p>
+          <span class="hub-card__cta">Apri la Vista mensile &rarr;</span>
         </a>
         <a class="hub-card" href="diario/">
           <img class="hub-card__icon" src="img/icon-diario.svg" alt="" width="46" height="46">
@@ -78,3 +84,4 @@
 <script src="js/cookie-consent.js?v=3" defer></script>
 </body>
 </html>
+
