@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nicola — Diario, allenamenti, sessioni e schede</title>
+<meta name="description" content="Lo spazio personale di Nicola: la scheda del macrociclo 2026–2027, le sessioni con i dati dell'orologio e il diario di allenamento.">
+<script>(function(){var p=location.pathname,i=p.indexOf("/admin/"),b="";if(i>0)b=p.slice(0,i);else if(/^\/nicola(\/|$)/i.test(p))b="/nicola";window.ND_BASE=b;window.ndUrl=function(u){if(!u)return(b||"")+"/";if(u.charAt(0)!=="/")u="/"+u;return b+u;};var bh=(b||"")+"/";if(!document.querySelector("base[data-nd-base]")){var e=document.createElement("base");e.href=bh;e.setAttribute("data-nd-base","1");document.head.insertBefore(e,document.head.firstChild);}})();</script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/site.css?v=1">
+</head>
+<body>
+<a class="skip-link" href="./#contenuto">Vai al contenuto</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="./">Nicola<small>Il mio diario di forza</small></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-principale">Menu</button>
+    <nav class="site-nav" id="nav-principale" aria-label="Principale">
+      <ul>
+        <li><a href="./" aria-current="page">Home</a></li>
+        <li><a href="diario/">Diario</a></li>
+        <li><a href="allenamenti/">Allenamenti</a></li>
+        <li><a href="sessioni/">Sessioni</a></li>
+        <li><a href="schede/">Schede</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenuto">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div>
+        <p class="tagline">Il mio spazio di allenamento</p>
+        <h1 id="hero-title">Forza, settimana dopo settimana.</h1>
+        <p class="lead">La mia scheda del macrociclo, le sessioni con i dati dell'orologio (collegamento da configurare) e il diario del percorso. Tutto in un posto solo.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="schede/">Apri la scheda</a>
+          <a class="btn btn-ghost" href="sessioni/">Vedi le sessioni</a>
+        </div>
+      </div>
+      <div class="hero__media">
+        <span class="ai-photo-wrap">
+          <img src="img/hero-boxer.svg" alt="Pugile in guardia in stile cartone, illustrazione originale" width="320" height="360" data-ai="illustration">
+          <span class="ai-photo-mark">Foto AI</span>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="sezioni-title">
+    <div class="wrap">
+      <span class="section-label">Dove vuoi andare?</span>
+      <h2 id="sezioni-title">Le quattro sezioni</h2>
+      <div class="card-grid">
+        <a class="hub-card" href="diario/">
+          <img class="hub-card__icon" src="img/icon-diario.svg" alt="" width="46" height="46">
+          <h3>Diario</h3>
+          <p>Pensieri e appunti sul percorso: come va, cosa imparo, cosa cambia.</p>
+          <span class="hub-card__cta">Apri il Diario →</span>
+        </a>
+        <a class="hub-card" href="allenamenti/">
+          <img class="hub-card__icon" src="img/icon-allenamenti.svg" alt="" width="46" height="46">
+          <h3>Allenamenti</h3>
+          <p>L'indice del programma: il ciclo annuale e le sue parti.</p>
+          <span class="hub-card__cta">Apri Allenamenti →</span>
+        </a>
+        <a class="hub-card" href="sessioni/">
+          <img class="hub-card__icon" src="img/icon-sessioni.svg" alt="" width="46" height="46">
+          <h3>Sessioni</h3>
+          <p>Il registro delle sedute con i dati dell'orologio: durata, cuore, calorie, serie.</p>
+          <span class="hub-card__cta">Apri le Sessioni →</span>
+        </a>
+        <a class="hub-card" href="schede/">
+          <img class="hub-card__icon" src="img/icon-schede.svg" alt="" width="46" height="46">
+          <h3>Schede</h3>
+          <p>La mia scheda del macrociclo 2026–2027, con figure e PDF da stampare.</p>
+          <span class="hub-card__cta">Apri le Schede →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap"><p>© <span id="y"></span> Nicola · Diario, allenamenti, sessioni e schede</p></div>
+</footer>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+<script src="js/site.js?v=1" defer></script>
+<script src="js/cookie-consent.js?v=3" defer></script>
+</body>
+</html>
