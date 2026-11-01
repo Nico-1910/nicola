@@ -1,16 +1,6 @@
-# Nicola — il mio spazio di forza
+# Nicola — macrociclo 2026–2027
 
-Sito personale di Nicola: scheda del macrociclo 2026–2027, registro delle sessioni con i dati dell'orologio e diario di allenamento.
-
-## Sezioni
-
-| Sezione | Percorso | Contenuto |
-|---------|----------|-----------|
-| Home | `/` | Accessi a Diario, Allenamenti, Sessioni e Schede |
-| Diario | `/diario/` | Articoli e appunti (indice + modello vuoto in `/diario/modello/`) |
-| Allenamenti | `/allenamenti/` | Indice del programma |
-| Sessioni | `/sessioni/` | Registro sedute (indice + modello vuoto in `/sessioni/modello/`), dati dall'orologio |
-| Schede | `/schede/` | La scheda del macrociclo: esercizi, figure e PDF |
+Ciclo annuale bodybuilding per **Nicola**: 4 fasi × 13 settimane, **3 schede a settimana (AB · AC · CB)**, priorità parte alta **~70%**. Gambe in mantenimento. PDF anonimo (Atleta a penna).
 
 ## Profilo
 
@@ -36,6 +26,11 @@ Sito personale di Nicola: scheda del macrociclo 2026–2027, registro delle sess
 - **Fase 1 (mesi 1–3):** progressivo 45 → 55 min, focus tecnica e recupero
 - **Dal mese 4:** max **60 min** per seduta
 
+## Online
+
+Repository: `Nico-1910/nicola`  
+GitHub Pages: `https://nico-1910.github.io/nicola/`
+
 ## Locale
 
 ```bash
@@ -44,14 +39,10 @@ python -m http.server 8080
 
 Poi apri http://127.0.0.1:8080/
 
-- Home: `/`
+- Home / ciclo: `/`
 - Scheda sessione: `/admin/sessione/?ciclo=ipertrofia-accumulo&sessione=ab`
 - PDF: `/admin/sessione/pdf/?ciclo=ipertrofia-accumulo&sessione=ab`
 
 ## Note
 
-Gli esercizi sono stati scelti **ad hoc per Nicola**, non copiati da altri atleti. La struttura del ciclo (AB/AC/CB, deload, PDF) segue il metodo del coach usato nei progetti allenamenti.
-
-## Grafica
-
-I colori del sito si cambiano dalle variabili CSS in cima a `css/site.css` (`:root`): sfondo, card, testi e accento blu sono tutti lì.
+Gli esercizi sono stati scelti **ad hoc per Nicola**, non copiati da altri atleti. La struttura del ciclo (AB/AC/CB, deload, PDF) segue il metodo Fadda.
