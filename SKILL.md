@@ -32,7 +32,7 @@ MACROCICLO  ≈ 52 settimane
 
 - **4 fasi × 13 settimane.** Deload = **settimana 13 (−40% volume)**.
 - Stessi esercizi per tutta la fase. Cambiano serie, rep, RIR, recupero.
-- **Esercizi scelti ad hoc per Nicola** — non copiare liste da altri atleti.
+- **Esercizi scelti ad hoc per Nicola** — non copiare liste da Michele o altri atleti.
 
 ---
 
